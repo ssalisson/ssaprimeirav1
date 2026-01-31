@@ -1,83 +1,85 @@
 const cursos = {
   // Recife
-  medicina_recife: { corte: 79.15, campus: "Recife" },
-  engenharia_comp_recife: { corte: 73.86, campus: "Recife" },
-  direito_recife: { corte: 70.90, campus: "Recife" },
-  odontologia_recife: { corte: 61.21, campus: "Recife" },
-  ciencias_biologicas_recife: { corte: 58.79, campus: "Recife" },
-  enfermagem_recife: { corte: 54.49, campus: "Recife" },
-  saude_coletiva_recife: { corte: 42.75, campus: "Recife" },
-  terapia_ocupacional_recife: { corte: 61.29, campus: "Recife" },
-  educacao_fisica_recife: { corte: 46.71, campus: "Recife" },
-  ciencias_sociais_recife: { corte: 54.59, campus: "Recife" },
-  administracao_recife: { corte: 54.98, campus: "Recife" },
-  engenharia_civil_recife: { corte: 52.80, campus: "Recife" },
-  engenharia_automacao_controle_recife: { corte: 57.66, campus: "Recife" },
-  engenharia_eletrica_eletrotecnica_recife: { corte: 44.65, campus: "Recife" },
-  engenharia_telecom_recife: { corte: 33.80, campus: "Recife" },
-  engenharia_eletrica_recife: { corte: 61.09, campus: "Recife" },
-  engenharia_mecanica_recife: { corte: 62.78, campus: "Recife" },
-  fisica_material_recife: { corte: 62.99, campus: "Recife" },
+  medicina_recife: { corte: 78.74, campus: "Recife" },
+  engenharia_comp_recife: { corte: 74.74, campus: "Recife" },
+  direito_recife: { corte: 73.32, campus: "Recife" },
+  odontologia_recife: { corte: 63.24, campus: "Recife" },
+  ciencias_biologicas_recife: { corte: 59.91, campus: "Recife" },
+  enfermagem_recife: { corte: 55.61, campus: "Recife" },
+  saude_coletiva_recife: { corte: 46.84, campus: "Recife" },
+  terapia_ocupacional_recife: { corte: 61.50, campus: "Recife" },
+  educacao_fisica_recife: { corte: 47.79, campus: "Recife" },
+  ciencias_sociais_recife: { corte: 55.30, campus: "Recife" },
+  administracao_recife: { corte: 56.64, campus: "Recife" },
+  engenharia_civil_recife: { corte: 53.99, campus: "Recife" },
+  engenharia_automacao_controle_recife: { corte: 59.91, campus: "Recife" },
+  engenharia_eletrica_eletrotecnica_recife: { corte: 50.64, campus: "Recife" },
+  engenharia_telecom_recife: { corte: 32.91, campus: "Recife" },
+  engenharia_eletrica_recife: { corte: 60.44, campus: "Recife" },
+  engenharia_mecanica_recife: { corte: 63.50, campus: "Recife" },
+  fisica_material_recife: { corte: 56.69, campus: "Recife" },
 
   // Caruaru
-  sistemas_informacao_caruaru: { corte: 58.76, campus: "Caruaru" },
-  administracao_caruaru: { corte: 51.25, campus: "Caruaru" },
-
-  // Nazaré da Mata 
-  ciencia_computacao_nazare: { corte: 56.36, campus: "Nazré da Mata" },
-  ciencias_biologicas_nazare: { corte: 42.45, campus: "Nazré da Mata" },
-  geografia_nazare: { corte: 36.11, campus: "Nazré da Mata" },
-  historia_nazare: { corte: 48.28, campus: "Nazré da Mata" },
-  letras_port_esp_nazare: { corte: 48.75, campus: "Nazré da Mata" },
-  letras_port_ing_nazare: { corte: 38.72, campus: "Nazré da Mata" },
-  matematica_nazare: { corte: 48.53, campus: "Nazré da Mata" },
-  pedagogia_nazare: { corte: 40.52, campus: "Nazré da Mata" },
-  tecnologia_logistica_nazare: { corte: 38.26, campus: "Nazré da Mata" },
+  sistemas_informacao_caruaru: { corte: 60.33, campus: "Caruaru" },
+  administracao_caruaru: { corte: 49.29, campus: "Caruaru" },
 
   // Garanhuns
-  medicina_garanhuns: { corte: 74.39, campus: "Garanhuns" },
-  psicologia_garanhuns: { corte: 59.07, campus: "Garanhuns" },
-  engenharia_software_garanhuns: { corte: 62.99, campus: "Garanhuns" },
-  computacao_garanhuns: { corte: 44.40, campus: "Garanhuns" },
-  historia_garanhuns: { corte: 44.93, campus: "Garanhuns" },
-  letras_port_garanhuns: { corte: 47.03, campus: "Garanhuns" },
-  matematica_garanhuns: { corte: 44.86, campus: "Garanhuns" },
-  pedagogia_garanhuns: { corte: 39.73, campus: "Garanhuns" },
-  geografia_garanhuns: { corte: 30.16, campus: "Garanhuns" },
-  ciencias_biologicas_l_garanhuns: { corte: 43.47, campus: "Garanhuns" },
+  medicina_garanhuns: { corte: 75.45, campus: "Garanhuns" },
+  psicologia_garanhuns: { corte: 60.01, campus: "Garanhuns" },
+  engenharia_software_garanhuns: { corte: 64.96, campus: "Garanhuns" },
+  computacao_garanhuns: { corte: 45.71, campus: "Garanhuns" },
+  historia_garanhuns: { corte: 44.36, campus: "Garanhuns" },
+  letras_portuguesa_garanhuns: { corte: 46.51, campus: "Garanhuns" },
+  matematica_garanhuns: { corte: 47.89, campus: "Garanhuns" },
+  pedagogia_garanhuns: { corte: 41.03, campus: "Garanhuns" },
+  geografia_garanhuns: { corte: 31.77, campus: "Garanhuns" },
+  ciencias_biologicas_l_garanhuns: { corte: 44.64, campus: "Garanhuns" },
 
   // Petrolina
-  fisioterapia_petrolina: { corte: 53.64, campus: "Petrolina" },
-  enfermagem_petrolina: { corte: 52.91, campus: "Petrolina" },
-  ciencias_biologicas_l_petrolina: { corte: 42.06, campus: "Petrolina" },
-  nutricao_petrolina: { corte: 53.32, campus: "Petrolina" },
-  pedagogia_petrolina: { corte: 36.97, campus: "Petrolina" },
-  geografia_petrolina: { corte: 34.95, campus: "Petrolina" },
-  letras_port_esp_petrolina: { corte: 31.84, campus: "Petrolina" },
-  letras_port_ing_petrolina: { corte: 37.95, campus: "Petrolina" },
-  matematica_petrolina: { corte: 45.67, campus: "Petrolina" },
+  fisioterapia_petrolina: { corte: 54.24, campus: "Petrolina" },
+  enfermagem_petrolina: { corte: 26.46, campus: "Petrolina" },
+  ciencias_biologicas_l_petrolina: { corte: 44.34, campus: "Petrolina" },
+  nutricao_petrolina: { corte: 52.86, campus: "Petrolina" },
+  pedagogia_petrolina: { corte: 35.59, campus: "Petrolina" },
+  historia_petrolina: { corte: 27.10, campus: "Petrolina" },
+  geografia_petrolina: { corte: 30.52, campus: "Petrolina" },
+  letras_port_espanhol_petrolina: { corte: 32.53, campus: "Petrolina" },
+  letras_port_ingles_petrolina: { corte: 42.53, campus: "Petrolina" },
+  matematica_petrolina: { corte: 47.82, campus: "Petrolina" },
 
   // Arcoverde
-  direito_arcoverde: { corte: 59.62, campus: "Arcoverde" },
-  odontologia_arcoverde: { corte: 58.51, campus: "Arcoverde" },
+  direito_arcoverde: { corte: 61.04, campus: "Arcoverde" },
+  odontologia_arcoverde: { corte: 61.04, campus: "Arcoverde" },
 
-  // Serratalhada
-  medicina_serratalhada: { corte: 73.81, campus: "Serratalhada" },
+  // Serra talhada
+  medicina_serratalhada: { corte: 74.09, campus: "Serratalhada" },
 
   // Surubim
-  engenharia_software_surubim: { corte: 55.52, campus: "Surubim" },
-  sistemas_informacao_surubim: { corte: 45.34, campus: "Surubim" },
+  engenharia_software_surubim: { corte: 57.06, campus: "Surubim" },
+  sistemas_informacao_surubim: { corte: 48.11, campus: "Surubim" },
+
+  // Nazaré da Mata 
+  ciencia_computacao_nazare: { corte: 57.41, campus: "Nazré da Mata" },
+  ciencias_biologicas_nazare: { corte: 43.84, campus: "Nazré da Mata" },
+  geografia_nazare: { corte: 37.17, campus: "Nazré da Mata" },
+  historia_nazare: { corte: 48.25, campus: "Nazré da Mata" },
+  letras_port_ing_nazare: { corte: 50.42, campus: "Nazré da Mata" },
+  letras_port_esp_nazare: { corte: 38.44, campus: "Nazré da Mata" },
+  tecnologia_logistica_nazare: { corte: 38.37, campus: "Nazré da Mata" },
+  matematica_nazare: { corte: 48.39, campus: "Nazré da Mata" },
+  pedagogia_nazare: { corte: 42.03, campus: "Nazré da Mata" },
 
   // Palmares
-  administracao_palmares: { corte: 29.80, campus: "Palmares" },
-  servico_social_palmares: { corte: 29.23, campus: "Palmares" },
+  administracao_palmares: { corte: 28.76, campus: "Palmares" },
+  servico_social_palmares: { corte: 27.31, campus: "Palmares" },
 
   // Ouricuri
-  enfermagem_ouricuri: { corte: 46.12, campus: "Ouricuri" },
-
+  enfermagem_ouricuri: { corte: 45.66, campus: "Ouricuri" },
+  
   // Salgueiro
-  administracao_salgueiro: { corte: 40.42, campus: "Salgueiro" }
+  administracao_salgueiro: { corte: 40.24, campus: "Salgueiro" }
 };
+
 
 function calcularNota3() {
   const nota1Input = document.getElementById("nota1");
@@ -105,6 +107,11 @@ function calcularNota3() {
       const mediaFinal = (nota3Necessaria * 0.75) + (notaRedacao * 0.25);
       nota3Input.value = nota3Necessaria.toFixed(2);
 
+      // Calcular questões necessárias
+      // Fórmula: teto(nota3Necessaria / 1.053)
+      let questoes = Math.ceil(nota3Necessaria / 1.053);
+      if (questoes < 0) questoes = 0;
+
       if (nota3Necessaria > 100) {
           resultadoDiv.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> Nota necessária no SSA-3: ' + nota3Necessaria.toFixed(2);
           resultadoDiv.style.backgroundColor = "rgb(255, 255, 163)"; 
@@ -118,7 +125,7 @@ function calcularNota3() {
 
       resultadoDiv.style.display = "block";
 
-      mostrarDetalhes(nota1, nota2, notaRedacao, parseFloat(nota3Input.value), notaMinima, mediaFinal, campus);
+      mostrarDetalhes(nota1, nota2, notaRedacao, parseFloat(nota3Input.value), notaMinima, mediaFinal, campus, questoes);
   } else {
       resultadoDiv.innerHTML = "Curso não encontrado.";
       nota3Input.value = "";
@@ -126,31 +133,25 @@ function calcularNota3() {
   }
 }
 
-function mostrarDetalhes(nota1, nota2, notaRedacao, nota3, notaCorte, mediaFinal, campus) {
+function mostrarDetalhes(nota1, nota2, notaRedacao, nota3, notaCorte, mediaFinal, campus, questoes) {
   const detalhesDiv = document.getElementById("detalhes");
-  const nota1Detalhe = document.getElementById("nota1Detalhe");
-  const nota2Detalhe = document.getElementById("nota2Detalhe");
-  const notaRedacaoDetalhe = document.getElementById("notaRedacaoDetalhe");
-  const nota3Detalhe = document.getElementById("nota3Detalhe");
-  const notaFinalDetalhe = document.getElementById("notaFinal");
-  const notaCorteDetalhe = document.getElementById("notaCorteCurso");
-  const classificacaoDetalhe = document.getElementById("classificacao");
+  
+  // Cálculo da nota final para exibição
+  const notaFinalExibida = ((nota1 + nota2 + notaRedacao + nota3) / 4).toFixed(2);
+  
+  let htmlContent = `
+    <div style="text-align: center; margin-bottom: 20px;">
+        <h2 style="font-size: 2em; color: #333;">Você precisa acertar <strong>${questoes}</strong> questões no SSA-3</h2>
+    </div>
+    <hr style="margin: 20px 0; border: 1px solid #ccc;">
+    <h3>DETALHAMENTO DE NOTAS</h3>
+    <p>Nota da prova objetiva (SSA-3): <span id="nota3Detalhe">${nota3.toFixed(2)}</span></p>
+    <p>Média Final no SSA-3: <span id="notaFinal">${notaFinalExibida}</span></p>
+    <p>Nota de corte do curso: <span id="notaCorteCurso">${notaCorte.toFixed(2)}</span></p>
+    <p>Classificação: <span id="classificacao">${nota3 > 100 ? "Reprovado (Impossível passar, nota necessária > 100)" : "Aprovado!"}</span></p>
+  `;
 
-  const notaFinal = ((nota1 + nota2 + notaRedacao + nota3) / 4).toFixed(2);
-
-  nota1Detalhe.innerText = nota1.toFixed(2);
-  nota2Detalhe.innerText = nota2.toFixed(2);
-  notaRedacaoDetalhe.innerText = notaRedacao.toFixed(2);
-  nota3Detalhe.innerText = nota3.toFixed(2);
-  notaCorteDetalhe.innerText = notaCorte.toFixed(2);
-  notaFinalDetalhe.innerText = mediaFinal.toFixed(2);
-
-  if (nota3 > 100) {
-      classificacaoDetalhe.innerText = "Reprovado (Impossível passar, nota necessária > 100)";
-  } else {
-      classificacaoDetalhe.innerText = "Aprovado!";
-  }
-
+  detalhesDiv.innerHTML = htmlContent;
   detalhesDiv.style.display = "block";
 }
 
