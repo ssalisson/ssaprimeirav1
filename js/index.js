@@ -120,9 +120,13 @@ function calcularNota3() {
       } else if (nota3Necessaria < 0) {
           resultadoDiv.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> Você já passou!';
           resultadoDiv.style.backgroundColor = "rgb(255, 255, 163)"; 
+                  resultadoDiv.style.fontSize = "20px";
+          resultadoDiv.style.fontWeight = "bold";
       } else {
           resultadoDiv.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> Nota necessária no SSA-3: ' + nota3Necessaria.toFixed(2);
           resultadoDiv.style.backgroundColor = "rgb(255, 255, 163)";
+                  resultadoDiv.style.fontSize = "20px";
+          resultadoDiv.style.fontWeight = "bold";
       }
 
       resultadoDiv.style.display = "block";
